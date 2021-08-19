@@ -23,5 +23,9 @@ public class L7{
 
         //using the roundTo2 object to call the format method from the DecimalFormat class.
         System.out.println("The number rounded to 3 decimals is " + roundTo3.format(number));
-    }
-}
+
+        DecimalFormat currency = new DecimalFormat ("S#,###..00);
+        System.out.println("you have " + currency.format(number));
+        System.out.println("you have " + currency.format(123456789.23569));
+
+        System.out.println(currency.format(500*1.05));

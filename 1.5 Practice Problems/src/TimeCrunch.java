@@ -5,4 +5,7 @@ public class TimeCrunch {
 
     Example:
      */
+    public static void main(String[] args) {
+        
+    }
 }
