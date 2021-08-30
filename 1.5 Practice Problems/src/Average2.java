@@ -4,7 +4,11 @@ public class Average2 {
     */
     public static void main(String[] args) {
 
-        int num1 = 8;
-        int num2 21;
+        int num1 = 28;
+        int num2 8;
+
+
+
+
     }
 }

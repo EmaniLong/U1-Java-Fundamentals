@@ -3,7 +3,10 @@ import java.util.Scanner;
 public class L8 {
 
     public static void main(String[] args) {
-        String name;
+
+        Scanner read = new Scanner (System.in);
+
+        /*String name;
         int hours;
         double payRate;
         double grossPay;
@@ -27,6 +30,39 @@ public class L8 {
         grossPay = hours * payRate;
 
         System.out.println("Hello " + name);
-        System.out.println("Your gross pay is $" + grossPay);
+        System.out.println("Your gross pay is $" + grossPay); */
+
+        *
+       /* int age;
+        String name;
+
+        System.out.println("what is your age?");
+        age = read.nextInt();
+
+        System.out.println("What is your name ?");
+        name = read.next();
+
+        System.out.println("What is your graduation year?");
+        int year = read.nextInt();
+
+        read.nextLine(); //Eats up the hanging carriage return
+
+        System.out.println(" hello" + name + ", you are" + age + "years old!");*/
+
+        // Bugaboo #2 - Tokens
+        String firstname;
+        String lastname;
+
+
+        System.out.println("what is your full name with age ?");
+        firstname = read.next();
+        lastname = read.next();
+        String age = read.nextLine();
+
+        System.out.println("Hello, " + firstname + " " + lastname + " you are" + age + "years old.");
+
+
+
+
     }
 }
