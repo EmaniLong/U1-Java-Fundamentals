@@ -32,8 +32,7 @@ public class L8 {
         System.out.println("Hello " + name);
         System.out.println("Your gross pay is $" + grossPay); */
 
-        *
-       /* int age;
+        /* int age;
         String name;
 
         System.out.println("what is your age?");

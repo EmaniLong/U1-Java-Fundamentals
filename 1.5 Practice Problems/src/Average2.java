@@ -5,9 +5,11 @@ public class Average2 {
     public static void main(String[] args) {
 
         int num1 = 28;
-        int num2 8;
+        int num2= 8;
 
-
+        int jim = num1 + num2;
+        double chickennuggets = jim / 2.0;
+        System.out.println(" The average is " + chickennuggets);
 
 
     }

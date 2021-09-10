@@ -20,10 +20,10 @@ public class L9{
         double hours;
         double distance;
 
-        mph = JOptionPane.showInputDialog("what was your speed?");
-        minutes = JOptionPane.showInputDialog("how long, IN MINUTES , did you travel?");
+        //mph = JOptionPane.showInputDialog("what was your speed?");
+        //minutes = JOptionPane.showInputDialog("how long, IN MINUTES , did you travel?");
 
-        distance = hours * mph;
+        //distance = hours * mph;
 
         System.exit(0);
     }
